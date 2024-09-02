@@ -126,8 +126,8 @@ const App = () => {
   }, [recordedChunks, capturing]);
 
   return (
-    <div className="flex  items-center justify-center min-h-screen  bg-gray-800">
-      <div className="w-full h-full bg-gray-700 bg-opacity-50 backdrop-filter backdrop-blur-sm">
+    <div className="flex items-center justify-center min-h-screen ">
+      <div className="bg-gray-700 bg-opacity-50 backdrop-filter backdrop-blur-sm w-full h-full">
         <Webcam
           audio={true}
           ref={webcamRef}
